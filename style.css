@@ -148,7 +148,7 @@ nav li:hover .dropdown-content {
 h1 {
     font-size:32px;
     font-family: "Bodoni MT";
-    padding: 0px 8px;
+    padding: 0 8px;
 }
 .desc {
     background-color: #264182;
@@ -199,8 +199,60 @@ p {
     border: solid darkred 8px;
     height: 400px;
     width: 400px;
-    margin: 50px 10px 0px 10px;
+    margin: 50px 10px 0 10px;
 }
 .bakedimages {
     text-align: center;
+}
+.map-information {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: darkred;
+    height: 50px;
+    margin-top: 50px;
+    border: 5px solid black;
+}
+.meet {
+    text-align: center;
+}
+.Cardsmtc    {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cardmtc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+}
+.photo {
+    min-height: 500px;
+    width: 600px;
+    background-color: #264182;
+    border: 20px solid darkred;
+    border-radius: 13px;
+}
+.info {
+    min-height: 500px;
+    width: 600px;
+    background-color: #264182;
+    border: 20px solid darkred;
+    border-radius: 13px;
+}
+.titles {
+    text-align: center;
+    margin: 0px;
+}
+.details {
+    text-align: center;
+    font-weight: bold;
+
+}
+.human {
+    min-height: 525PX;
+    width: 601px;
 }
