@@ -54,9 +54,9 @@ nav li:hover .dropdown-content {
 }
 .WebTop {
     display: flex;
-    justify-content: space-between;
     background-color: darkred;
     align-items: center;
+    flex-direction: row;
 }
 .Bakery-Name {
     color: white;
@@ -66,10 +66,16 @@ nav li:hover .dropdown-content {
     width: 100px;
     border-radius: 100px;
 }
+.Address {
+    margin-left: 1200px;
+    font-size: 15px;
+    color: white;
+ }
 /*Nav Bar and Title Above*/
 .bakery-exterior {
     position: relative;
-    height: 600px
+    height: 600px;
+    margin-bottom: 100px;
 }
 .bakery-exterior-picture {
     width: 100%;
@@ -78,17 +84,16 @@ nav li:hover .dropdown-content {
 }
 .ratings {
     position: absolute;
-    top: 556px;
-    border-top: 5px solid black;
-    border-right: 5px solid black;
+    top: 0;
 }
 .ratings-picture {
-    height: 40px;
+    height: 45px;
     width: 200px;
 }
 .bakery-info {
     text-align: center;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 .bakery-content {
     flex-direction: row;
@@ -105,15 +110,7 @@ nav li:hover .dropdown-content {
     width: 300%;
     border: 5px solid black;
 }
-.map-information {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    background-color: darkred;
-    height: 50px;
-    margin-top: 50px;
-    border: 5px solid black;
-}
+
 /* scrollbar width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -245,7 +242,7 @@ p {
 }
 .titles {
     text-align: center;
-    margin: 0px;
+    margin: 0;
 }
 .details {
     text-align: center;
