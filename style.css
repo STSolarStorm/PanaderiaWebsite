@@ -20,7 +20,6 @@ nav li {
     align-items: center;
     display: flex;
     position: relative;
-    height: 50px;
     font-weight: bold;
     border: 5px solid black;
 }
@@ -33,11 +32,10 @@ nav a, nav a:visited {
 nav a:hover, nav a.active {
     color: white;
     background-color: rgba(62, 172, 6, 1);
-    height:70%;
 }
 .dropdown-content {
     position: absolute;
-    top: 55px;
+    top: 38px;
     width: 100%;
     display: none;
     z-index: 20;
@@ -200,15 +198,6 @@ p {
 }
 .bakedimages {
     text-align: center;
-}
-.map-information {
-    font-size: 20px;
-    text-align: center;
-    color: white;
-    background-color: darkred;
-    height: 50px;
-    margin-top: 50px;
-    border: 5px solid black;
 }
 .meet {
     text-align: center;
