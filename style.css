@@ -130,8 +130,22 @@ nav li:hover .dropdown-content {
 }
 .Treats {
     margin: 10px;
-    text-align: center;
-    list-style-type: none; /* Remove bullets */
+}
+.TreatsList {
+    list-style: none;
+    font-size: 20px;
+}
+li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+li:hover {
+    background-color: rgba(62, 172, 6, 1);
+}
+.card-areatreat {
+    align-content: center;
+    background-color: darkgreen;
+    border: solid darkred 8px;
 }
 .BakedGoods {
     justify-content: space-around;
@@ -150,10 +164,6 @@ h1 {
     font-family: "Bodoni MT";
     padding: 0 8px;
 }
-.desc {
-    background-color: #264182;
-    min-height: 50px;
-}
 .card-area {
     display:flex;
     flex-wrap: wrap;
@@ -161,7 +171,7 @@ h1 {
 .card {
     min-height: 50%;
     width: 700px;
-    background-color: #264182;
+    background-color: darkgreen;
     border-radius: 20px;
     margin: 16px;
     border: solid darkred 8px;
@@ -169,7 +179,7 @@ h1 {
 .card2 {
     min-height: 500px;
     width: 700px;
-    background-color: #264182;
+    background-color: darkgreen;
     border-radius: 20px;
     margin: 16px;
     border: solid darkred 8px;
@@ -230,7 +240,7 @@ p {
 .info {
     min-height: 500px;
     width: 600px;
-    background-color: #264182;
+    background-color: darkgreen;
     border: 20px solid darkred;
     border-radius: 13px;
 }
