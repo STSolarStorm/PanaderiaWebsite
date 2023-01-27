@@ -130,10 +130,15 @@ nav li:hover .dropdown-content {
 }
 .Treats {
     margin: 10px;
+    text-align: center;
 }
 .TreatsList {
     list-style: none;
     font-size: 20px;
+    padding: 10px;
+}
+.link {
+    color: lightpink;
 }
 li a {
     text-decoration: none;
@@ -142,7 +147,7 @@ li a {
 li:hover {
     background-color: rgba(62, 172, 6, 1);
 }
-.card-areatreat {
+.card-area-treat {
     align-content: center;
     background-color: darkgreen;
     border: solid darkred 8px;
@@ -217,7 +222,7 @@ p {
 .meet {
     text-align: center;
 }
-.Cardsmtc    {
+.Cardsmtc {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -243,15 +248,16 @@ p {
     background-color: darkgreen;
     border: 20px solid darkred;
     border-radius: 13px;
+    text-align: center;
+}
+.Workers {
+    color: pink;
 }
 .titles {
-    text-align: center;
     margin: 0;
 }
 .details {
-    text-align: center;
     font-weight: bold;
-
 }
 .human {
     min-height: 525PX;
